@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#c1b0b0"
+    tools:context="com.deaenita.checkvalidformrxandroid.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:background="#f9f4f4"
+        android:id="@+id/et_username"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="#f9f4f4"
+        android:id="@+id/et_password"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="SIGN IN"
+        android:id="@+id/btn_signIn"/>
+
+
+</LinearLayout>
